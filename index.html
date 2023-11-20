@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to </title>
+    <link rel="shortcut icon" href="asset/images/favicon.ico" />
+    <!-- font css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+    <!-- pluging css -->
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="asset/css/jquery-ui.css" rel="stylesheet" />
+    <link href="asset/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="asset/css/owl.theme.default.min.css" rel="stylesheet">
+    <!-- css -->
+    <link href="asset/css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="d-flex">
+    <header>
+        <div class="top-hdr-wppr">
+            <button type="button" class="menu_sld_btn"></button>
+            <div class="row flex-wrap h-auto">
+                <div class="menu_lg_wppr">
+                    <a href="">
+                        <img src="asset/images/full_logo.png" alt="" class="logo_txt" />
+                    </a>
+                </div>
+                <nav>
+                    <div class="menu_lst">
+                        <ul>
+                            <li>
+                                <a href="" class="actv_menu">
+                                    <em>
+                                        <img src="asset/icon/recaster_status.svg" alt="" />
+                                    </em>
+                                    <small class="show_txt">Recaster Status</small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <em>
+                                        <img src="asset/icon/dashboard.svg" alt="" />
+                                    </em>
+                                    <small class="show_txt">Dashboard</small>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lgot_menu">
+                        <ul>
+                            <li class="lgot_btn">
+                                <a href="">
+                                    <em>
+                                        <img src="asset/images/logout.svg" alt="" />
+                                    </em>
+                                    <small class="show_txt">Log Out</small>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="cmn-txt-wppr">
+            <div class="container">
+                <div class="row">
+                    <div class="rcstr_sts_wppr">
+                        <div class="title">
+                            <h1>Recaster Status</h1>
+                        </div>
+                        <div class="sts_crt_wppr">
+                            <div class="crt-3">
+                                <div class="crt_icn">
+                                    <span>
+                                        <img src="asset/images/index/totl_rcstr.svg" alt="">
+                                    </span>
+                                </div>
+                                <div class="crt_txt">
+                                    <div class="title">
+                                        <h5>Total Recaster</h5>
+                                        <h2>120</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="crt-3">
+                                <div class="crt_icn">
+                                    <span>
+                                        <img src="asset/images/index/totl_rcstr.svg" alt="">
+                                    </span>
+                                </div>
+                                <div class="crt_txt">
+                                    <div class="title">
+                                        <h5>Active Recaster</h5>
+                                        <h2>12</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="crt-3">
+                                <div class="crt_icn">
+                                    <span>
+                                        <img src="asset/images/index/totl_rcstr.svg" alt="">
+                                    </span>
+                                </div>
+                                <div class="crt_txt">
+                                    <div class="title">
+                                        <h5>Completed</h5>
+                                        <h2>75 <small>3 New</small> </h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="crt-3">
+                                <div class="crt_icn">
+                                    <span>
+                                        <img src="asset/images/index/totl_rcstr.svg" alt="">
+                                    </span>
+                                </div>
+                                <div class="crt_txt">
+                                    <div class="title">
+                                        <h5>Pending</h5>
+                                        <h2>45 <small>4 due</small> </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rcstr_sts_acdng_dtl">
+                            <div class="acdng_btn_wppr">
+                                <ul>
+                                    <li class="lnk_actv">All</li>
+                                    <li>Active</li>
+                                    <li>Completed</li>
+                                    <li>Pending </li>
+                                </ul>
+                                <div class="acdng_fltr_wppr">
+                                    <div class="srch_wppr">
+                                        <button type="button" class="srch_icn">
+                                            <img src="asset/images/index/search.svg" alt="">
+                                        </button>
+                                        <input type="text" class="srch_txt" placeholder="Search">
+                                    </div>
+                                    <div class="date_pckr_wppr">
+                                        <div class="sctdata">
+                                            <input type="text" id="startdate" name="from" placeholder="Select Date">
+                                            <em>-</em>
+                                            <input type="text" id="enddate" name="to" placeholder="End Date">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="acdng_tbl_data_wppr">
+                                <div class="acdng_tbl_data">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>CLIENT NAME</th>
+                                                <th>ASSIGNEE</th>
+                                                <th>NO OF RECASTER</th>
+                                                <th>DATE </th>
+                                                <th>STATUS</th>
+                                                <th>CHECK STATUS </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Disney Star</td>
+                                                <td>Lorem Ipsum</td>
+                                                <td>3</td>
+                                                <td>09/06/2023</td>
+                                                <td>
+                                                    <div class="tr_sts">
+                                                        <p>Completed</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="tck_btn">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr class="drp_dwn">
+                                                <td colspan="12">
+                                                    <div class="trk_wppr">
+                                                        <div class="trk_data_lst">
+                                                            <div class="trk_hdng">
+                                                                <h4>Recaster_072</h4>
+                                                            </div>
+                                                            <div class="trck_lst_itm">
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/acptnc_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Request Acceptance</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/cnfgrtn_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>System Configuration</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/sftwr_intltn_icon.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Software installation</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/srvs_sts_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Connection Established</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/link_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Deploy</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="trk_data_lst">
+                                                            <div class="trk_hdng">
+                                                                <h4>Recaster_072</h4>
+                                                            </div>
+                                                            <div class="trck_lst_itm">
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/acptnc_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Request Acceptance</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/cnfgrtn_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>System Configuration</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/sftwr_intltn_icon.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Software installation</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/srvs_sts_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Connection Established</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/link_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Deploy</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Disney Star</td>
+                                                <td>Lorem Ipsum</td>
+                                                <td>3</td>
+                                                <td>09/06/2023</td>
+                                                <td>
+                                                    <div class="tr_sts ">
+                                                        <p class="pndg">Pending</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="tck_btn">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr class="drp_dwn">
+                                                <td colspan="12">
+                                                    <div class="trk_wppr">
+                                                        <div class="trk_data_lst">
+                                                            <div class="trk_hdng">
+                                                                <h4>Recaster_072</h4>
+                                                            </div>
+                                                            <div class="trck_lst_itm">
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/acptnc_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Request Acceptance</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/cnfgrtn_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>System Configuration</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/sftwr_intltn_icon.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Software installation</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/srvs_sts_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Connection Established</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/link_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Deploy</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Disney Star</td>
+                                                <td>Lorem Ipsum</td>
+                                                <td>3</td>
+                                                <td>09/06/2023</td>
+                                                <td>
+                                                    <div class="tr_sts">
+                                                        <p>Completed</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="tck_btn">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr class="drp_dwn">
+                                                <td colspan="12">
+                                                    <div class="trk_wppr">
+                                                        <div class="trk_data_lst">
+                                                            <div class="trk_hdng">
+                                                                <h4>Recaster_072</h4>
+                                                            </div>
+                                                            <div class="trck_lst_itm">
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/acptnc_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Request Acceptance</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/cnfgrtn_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>System Configuration</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/sftwr_intltn_icon.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Software installation</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/srvs_sts_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Connection Established</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/link_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Deploy</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Disney Star</td>
+                                                <td>Lorem Ipsum</td>
+                                                <td>3</td>
+                                                <td>09/06/2023</td>
+                                                <td>
+                                                    <div class="tr_sts">
+                                                        <p>Completed</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="tck_btn">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr class="drp_dwn">
+                                                <td colspan="12">
+                                                    <div class="trk_wppr">
+                                                        <div class="trk_data_lst">
+                                                            <div class="trk_hdng">
+                                                                <h4>Recaster_072</h4>
+                                                            </div>
+                                                            <div class="trck_lst_itm">
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/acptnc_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Request Acceptance</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/cnfgrtn_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>System Configuration</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/sftwr_intltn_icon.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Software installation</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/srvs_sts_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Connection Established</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/link_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Deploy</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Disney Star</td>
+                                                <td>Lorem Ipsum</td>
+                                                <td>3</td>
+                                                <td>09/06/2023</td>
+                                                <td>
+                                                    <div class="tr_sts">
+                                                        <p>Completed</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="tck_btn">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr class="drp_dwn">
+                                                <td colspan="12">
+                                                    <div class="trk_wppr">
+                                                        <div class="trk_data_lst">
+                                                            <div class="trk_hdng">
+                                                                <h4>Recaster_072</h4>
+                                                            </div>
+                                                            <div class="trck_lst_itm">
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/acptnc_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Request Acceptance</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/cnfgrtn_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>System Configuration</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/sftwr_intltn_icon.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Software installation</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/srvs_sts_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Connection Established</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/link_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Deploy</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Disney Star</td>
+                                                <td>Lorem Ipsum</td>
+                                                <td>3</td>
+                                                <td>09/06/2023</td>
+                                                <td>
+                                                    <div class="tr_sts">
+                                                        <p>Completed</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="tck_btn">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr class="drp_dwn">
+                                                <td colspan="12">
+                                                    <div class="trk_wppr">
+                                                        <div class="trk_data_lst">
+                                                            <div class="trk_hdng">
+                                                                <h4>Recaster_072</h4>
+                                                            </div>
+                                                            <div class="trck_lst_itm">
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/acptnc_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Request Acceptance</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/cnfgrtn_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>System Configuration</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/sftwr_intltn_icon.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Software installation</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/srvs_sts_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Connection Established</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/link_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Deploy</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Disney Star</td>
+                                                <td>Lorem Ipsum</td>
+                                                <td>3</td>
+                                                <td>09/06/2023</td>
+                                                <td>
+                                                    <div class="tr_sts">
+                                                        <p>Completed</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="tck_btn">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr class="drp_dwn">
+                                                <td colspan="12">
+                                                    <div class="trk_wppr">
+                                                        <div class="trk_data_lst">
+                                                            <div class="trk_hdng">
+                                                                <h4>Recaster_072</h4>
+                                                            </div>
+                                                            <div class="trck_lst_itm">
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/acptnc_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Request Acceptance</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/cnfgrtn_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>System Configuration</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/sftwr_intltn_icon.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Software installation</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/srvs_sts_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Connection Established</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/link_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Deploy</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Disney Star</td>
+                                                <td>Lorem Ipsum</td>
+                                                <td>3</td>
+                                                <td>09/06/2023</td>
+                                                <td>
+                                                    <div class="tr_sts">
+                                                        <p>Completed</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="tck_btn">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr class="drp_dwn">
+                                                <td colspan="12">
+                                                    <div class="trk_wppr">
+                                                        <div class="trk_data_lst">
+                                                            <div class="trk_hdng">
+                                                                <h4>Recaster_072</h4>
+                                                            </div>
+                                                            <div class="trck_lst_itm">
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/acptnc_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Request Acceptance</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2 trk_cmplt">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/cnfgrtn_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>System Configuration</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/sftwr_intltn_icon.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Software installation</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/srvs_sts_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Connection Established</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="trk_clm_2">
+                                                                    <div class="trck_icn">
+                                                                        <img src="asset/images/index/link_icn.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="title">
+                                                                        <p>Deploy</p>
+                                                                        <div class="trck_ckng">
+                                                                            <input type="checkbox"
+                                                                                class="trck_chck_txt">
+                                                                            <label></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- end here  -->
+    <!-- script start-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="asset/js/jquery-ui.js"></script>
+    <script src="asset/js/common.js"></script>
+    <!-- script end-->
+    <script>
+         $(function() {
+            $("#startdate").datepicker({ dateFormat: "dd-mm-yy", changeMonth: true, changeYear: true }).val()
+            $("#enddate").datepicker({ dateFormat: "dd-mm-yy",  changeMonth: true, changeYear: true }).val()
+       });
+    </script>
+</body>
+
+</html>
